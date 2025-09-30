@@ -1,0 +1,37 @@
+site_name: JOWEEN.DEV
+site_url: https://joween.dev
+copyright: Joween Flores
+site_description: Personal website of Joween Flores - Developer, Engineer, and Tech Enthusiast
+nav:
+    - Home: index.md
+    - Contact: contact.md
+extra:
+  generator: false
+theme:
+  name: simple-blog
+  favicon: assets/favicon.ico
+  theme_style: light
+  site_name_style: bold
+  title_style: bold
+  sidebar: true
+  navigation_depth: 2
+  highlightjs: true
+  languages:
+    - yaml
+    - python
+    - javascript
+    - html
+    - css
+    - json
+  colors:
+    text: '#2c3e50'
+    title: '#1a252f'
+    primary: '#3498db'
+    background: '#ffffff'
+    accent: '#e74c3c'
+  components:
+    site_name: true
+    title: false
+    menu: true
+    preview: false
+    footer: true
